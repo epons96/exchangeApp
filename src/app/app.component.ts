@@ -59,14 +59,12 @@ export class AppComponent implements OnInit {
           Object.keys(resp.rates).forEach((element) => {
             if ((element = this.forma.get('currency2')?.value)) {
               this.cosa = Object.values<Rate>(resp.rates);
-              console.log(this.cosa[0].rate_for_amount);
               this.forma.get('amount2')?.setValue(this.cosa[0].rate_for_amount);
             }
           });
         });
     }
 
-    console.log('CONVERSION');
   }
 
   // SWAP VALUES
