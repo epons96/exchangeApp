@@ -1,0 +1,49 @@
+button {
+    color: white;
+    background-color: rgb(31, 130, 112);
+    padding: 8px 23px;
+    font-size: x-large;
+}
+
+span {
+    margin-left: 27px;
+    margin-bottom: 10px;
+}
+
+.color {
+    color: rgb(31, 130, 112);
+}
+
+mat-icon.icon {
+    font-size: 200px;
+    align-items: center;
+    padding-left: 44px;
+}
+
+p.color {
+    font-weight: bold;
+}
+
+.select {
+    width: 104px;
+    height: 72px;
+}
+
+.estilo {
+    padding-bottom: 40px;
+    align-items: flex-end;
+}
+
+.padre {
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-h1 {
+    text-align: center;
+}
+
+.mat-h1 {
+    text-align: justify;
+}
