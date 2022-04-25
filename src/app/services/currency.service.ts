@@ -12,7 +12,7 @@ export class CurrencyService {
 
   get params(){
     return{ 
-      api_key:'d7a6ae1334630cf41b5e8a02de936b86f5d125cd',
+      api_key:'c14d1c1421bab8debbe53f068ec66aac61f40276',
       from:'',
       to:'',
       amount: 0,
